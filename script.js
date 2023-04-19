@@ -48,7 +48,7 @@ messageForm.addEventListener('submit', async (event) => {
 // Function to get the bot's response using the GPT API
 async function getBotResponse(message) {
     // Replace with your actual API key
-    const apiKey = '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';
+    const apiKey = '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';
 
     const requestBody = {
         model: "gpt-3.5-turbo",
@@ -96,7 +96,7 @@ async function getBotResponse(message) {
 
 // Function to get an image URL based on the bot's response using the DALL-E API
 async function getImageForBotResponse(botMessage) {
-  const apiKey = "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";
+  const apiKey = "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";
   const prompt = botMessage + " in the style of a virtual reality game";
   const apiUrl = "https://api.openai.com/v1/images/generations";
   const headers = new Headers({
